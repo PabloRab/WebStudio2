@@ -77,3 +77,34 @@ body{
 .footer-logo{
     font-family: 'Raleway', sans-serif;
 }
+button:hover{
+    width: 73px;
+    height: 38px;
+    border-radius: 4px;
+    background: #2196F3;
+    color: #FFF;
+}
+.list-widget{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.portfolio-img{
+    width: 370px;
+    height: 294px;
+}
+.portfolio-title{
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1.08px;
+}
+.portfolio-text{
+color: #757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.48px;
+}
