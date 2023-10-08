@@ -4,10 +4,6 @@
     font-size: 14px;
     font-weight: 500;
 }
-a{
-    text-decoration: none;
-    cursor: pointer;
-}
 a:hover{
     color: #2196F3;
 }
@@ -19,10 +15,12 @@ h3{
 }
 body{
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
-h1,h2,h3,p{
-    margin-bottom: 0;
-    margin-top: 0;
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 ul{
     list-style: none;
@@ -38,6 +36,10 @@ ul{
 .black{
     color: #000000;
 }
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
 .site-nav-link{
     color: #212121;
 }
@@ -50,39 +52,45 @@ ul{
 }
 .main-section{
     background-color: #2F303A;
-    text-align: center;
-    width: 1600px;
-    height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
-.main-h1{
+.main-title{
     color: #fff;
-    text-transform: uppercase;
-    line-height: 60px;
+    text-align: center;
+    line-height: 136%;
     font-size: 44px;
     font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
 .main-button{
-    border-radius: 4px;
-    background: #2196F3;
-    width: 216px;
-    height: 50px;
+    color: #FFF;
+    background-color: #2196F3;
     font-size: 16px;
     font-weight: 700;
-    width: 216px;
-    line-height: 30px;
-    height: 50px;
-    color: #fff;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.post-wrap{
+    display: flex;
+    justify-content: center;
+}
+.section-about{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .about-site{
     font-size: 14px;
-    width: 270px;
 }
 .about-title{
     color: #212121;
     width: 696px;
     font-weight: 700;
     text-transform: uppercase;
-    width: 270px;
+    margin-bottom: 10px;
 }
 .about-text{
     color: #757575;
@@ -90,24 +98,38 @@ ul{
     line-height: 24px;
     height: 48px;
 }
+.section-work{
+    padding-bottom: 94px;
+}
+.work-img{
+    width: 270px;
+    height: 260px;
+}
 .work-title{
     color: #212121;
     font-size: 36px;
     font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
 }
 .work-list{
     width: 370px;
     height: 294px;
 }
+.team-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .team-main-title{
     color: #212121;
     font-size: 36px;
     font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
 }
-.team-img{
+.team-amg{
     width: 270px;
     height: 260px;
-    flex-shrink: 0;
 }
 .team-title{
     color: #212121;
@@ -120,9 +142,8 @@ ul{
     font-weight: 400;
 }
 .footer{
-    width: 1600px;
-    height: 252px;
-    flex-shrink: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background: #2F303A;
 }
 .white{
@@ -138,9 +159,6 @@ ul{
 }
 .footer-navigation{
     color: rgba(255, 255, 255, 0.60);
-}
-body{
-    font-family: 'Roboto', sans-serif;
 }
 .footer-logo{
     font-family: 'Raleway', sans-serif;

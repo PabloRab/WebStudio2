@@ -5,23 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webstudio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+
+<body class="body">
     <header class="header">
-      <div class="container-header">
-        <a class="logo" href="index.html">Web<span class="black">Studio</span></a>
+      <div class="container">
+        <a class="logo" href="./index.html">Web<span class="black">Studio</span></a>
         <nav class="navigation">
             <ul  class="site-nav">
              <li class="site-nav-item">
-                <a class="site-nav-link" href="index.html">Студія</a>
+                <a class="site-nav-link" href="./index.html">Студія</a>
               </li>
              <li class="site-nav-item">
-                <a class="site-nav-link" href="portpfolio.html">Портфоліо</a>
+                <a class="site-nav-link" href="./portpfolio.html">Портфоліо</a>
               </li>
              <li class="site-nav-item">
                 <a class="site-nav-link" href="#">Контакт</a>
@@ -39,15 +40,19 @@
       </div>
     </header>
 
-    <main>
+    <main class="main">
         <!--Main section-->
-
     <section class="main-section">
-        <h1 class="main-h1">Ефективні рішення для вашого бізнесу</h1>
-        <button class="main-button">Замовити послугу</button>
+     <div class="container">
+        <h1 class="main-title">Ефективні рішення для <br>вашого бізнесу</h1>
+        <div class="post-wrap">
+         <button class="main-button">Замовити послугу</button>
+       </div>
+     </div>
     </section>
-<!--Section 2-->
+        <!--Section 2-->
     <section class="section-about">
+        <div class="container">
         <ul class="about-site">
             <li class="about-list">
                 <h3 class="about-title">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -66,9 +71,11 @@
                 <p class="about-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
             </li>
         </ul>
+    </div>
     </section>
-<!--Section 3-->
-    <section class="work">
+       <!--Section 3-->
+    <section class="section-work">
+       <div class="container">
         <h2 class="work-title">Чим ми займаємось</h2>
         <ul class="work-site">
             <li class="work-list">
@@ -81,9 +88,11 @@
                 <img class="work-img" src="img/img.png" alt="">
             </li>
         </ul>
+       </div>
     </section>
-<!--Section 4-->
+       <!--Section 4-->
     <section class="team-section">
+        <div class="container">
         <h2 class="team-main-title">Наша команда</h2>
         <ul class="team-site">
             <li class="team-list">
@@ -108,16 +117,19 @@
                 </div>
             </li>
         </ul>
+    </div>
     </section>
     </main>
     <!--footer-->
     <footer class="footer">
+        <div class="container">
         <a class="logo" href="index.html">Web<span class="white">Studio</span></a>
         <address class="footer-address">
             <a class="footer-city" href="">м. Київ, пр-т Лесі Українки, 26</a>
             <a class="footer-navigation" href="info@devstudio.com">info@devstudio.com</a>
             <a class="footer-navigation" href="+380961111111">+38 096 111 11 11</a>
         </address>
+    </div>
     </footer>
 </body>
 </html>
