@@ -47,7 +47,7 @@ ul{
 }
 .logo-wrap{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 .site-nav{
     width: 281px;
@@ -62,13 +62,14 @@ ul{
     color: #757575;
 }
 .contacts{
+    align-items: center;
     font-size: 14px;
     font-weight: 500;
     display: flex;
 }
 .mail{
     margin-right: 50px;
-    font-weight: 900;
+    font-weight: 500;
     color: #757575;
 }
 .main-section{
@@ -103,25 +104,31 @@ ul{
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.about-site{
+    display: flex;
+    justify-content: space-between;
+}
 .about-title{
     color: #212121;
-    width: 696px;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 10px;
+}
+.about-list{
+    width: 270px;
 }
 .about-text{
     color: #757575;
     font-weight: 400;
     line-height: 24px;
-    height: 48px;
+    height: 171%;
 }
 .section-work{
     padding-bottom: 94px;
 }
 .work-img{
-    width: 270px;
-    height: 260px;
+    width: 370px;
+    height: 294px;
 }
 .work-title{
     color: #212121;
@@ -129,6 +136,10 @@ ul{
     font-weight: 700;
     margin-bottom: 50px;
     text-align: center;
+}
+.work-site{
+    display: flex;
+    justify-content: space-between;
 }
 .work-list{
     width: 370px;
@@ -152,34 +163,47 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .team-amg{
     width: 270px;
     height: 260px;
     margin-bottom: 30px;
 }
+.team-site{
+    display: flex;
+    justify-content: space-between;
+}
 .team-title{
     color: #212121;
     font-size: 16px;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 .team-text{
     color: #757575;
     font-size: 16px;
     font-weight: 400;
+    text-align: center;
+}
+.footer-list{
+    margin-top: 20px;
 }
 .footer{
     padding-top: 60px;
     padding-bottom: 60px;
     background: #2F303A;
+    font-family: 'Roboto', sans-serif;
 }
 .white{
     color: #fff;
 }
+.footer-list{
+    line-height: 181.429%;
+}
 .footer-address{
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
 }
 .footer-city{
     color: #FFF;
@@ -189,4 +213,8 @@ ul{
 }
 .footer-logo{
     font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #2196F3;
+    margin-right: 93px;
 }
