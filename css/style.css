@@ -4,24 +4,26 @@
     font-size: 14px;
     font-weight: 500;
 }
+
 .site-nav-link:hover{
     color: #2196F3;
 }
+
 .contanct-link:hover{
     color: #2196F3;
 }
-h3{
-    color: #212121;
-}
+
 body{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
+
 .container{
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
 .logo{
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
@@ -29,49 +31,60 @@ body{
     color: #2196F3;
     margin-right: 93px;
 }
+
 .black{
     color: #000000;
 }
+
 .header{
     padding-top: 24px;
     padding-bottom: 25px;
 }
+
 .header-wrap{
     display: flex;
     justify-content: space-between;
 }
+
 .logo-wrap{
     display: flex;
     align-items: center;
 }
+
 .site-nav{
     width: 281px;
     display: flex;
     justify-content: space-between;
 }
+
 .site-nav-link{
     color: #212121;
     margin-right: 93px;
 }
+
 .contanct-link{
     color: #757575;
 }
+
 .contacts{
     align-items: center;
     font-size: 14px;
     font-weight: 500;
     display: flex;
 }
+
 .mail{
     margin-right: 50px;
     font-weight: 500;
     color: #757575;
 }
+
 .main-section{
     background-color: #2F303A;
     padding-top: 200px;
     padding-bottom: 200px;
 }
+
 .main-title{
     color: #fff;
     text-align: center;
@@ -81,6 +94,7 @@ body{
     text-transform: uppercase;
     margin-bottom: 30px;
 }
+
 .main-button{
     color: #FFF;
     background-color: #2196F3;
@@ -94,14 +108,17 @@ body{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
+
 .post-wrap{
     display: flex;
     justify-content: center;
 }
+
 .section-about{
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
 .about-site{
     display: flex;
     justify-content: space-between;
@@ -125,12 +142,15 @@ body{
     background-position: center;
     margin-bottom: 30px;
 }
+
 .about-list:nth-child(2)::before{
     background-image: url(/img/clock1.png);
 }
+
 .about-list:nth-child(3)::before{
     background-image: url(/img/diagram1.png);
 }
+
 .about-list:nth-child(4)::before{
     background-image: url(/img/astronaut1.png);
 }
@@ -139,19 +159,23 @@ body{
     background-color: white;
     text-align: center;
 }
+
 .about-text{
     color: #757575;
     font-weight: 400;
     line-height: 24px;
     height: 171%;
 }
+
 .section-work{
     padding-bottom: 94px;
 }
+
 .work-img{
     width: 370px;
     height: 294px;
 }
+
 .work-title{
     color: #212121;
     font-size: 36px;
@@ -159,18 +183,22 @@ body{
     margin-bottom: 50px;
     text-align: center;
 }
+
 .work-site{
     display: flex;
     justify-content: space-between;
 }
+
 .work-list{
     width: 370px;
     height: 294px;
 }
+
 .team-section{
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
 .team-main-title{
     color: #212121;
     font-size: 36px;
@@ -178,6 +206,7 @@ body{
     margin-bottom: 50px;
     text-align: center;
 }
+
 .team-list{
     width: 270px;
     border-color: 1px red;
@@ -187,50 +216,61 @@ body{
     align-items: center;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
+
 .team-amg{
     width: 270px;
     height: 260px;
     margin-bottom: 30px;
 }
+
 .team-site{
     display: flex;
     justify-content: space-between;
 }
+
 .team-title{
     color: #212121;
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 10px;
 }
+
 .team-text{
     color: #757575;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
 }
+
 .footer{
     padding-top: 60px;
     padding-bottom: 60px;
     background: #2F303A;
     font-family: 'Roboto', sans-serif;
 }
+
 .white{
     color: #fff;
 }
+
 .footer-list{
     line-height: 181.429%;
     margin-top: 20px;
 }
+
 .footer-address{
     font-size: 14px;
     font-weight: 400;
 }
+
 .footer-city{
     color: #FFF;
 }
+
 .footer-navigation{
     color: rgba(255, 255, 255, 0.60);
 }
+
 .footer-logo{
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
