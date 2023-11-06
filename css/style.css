@@ -136,7 +136,7 @@ body{
     height: 120px;
     background-color:#f5f4fa;
     border-radius: 4px;
-    background-image: url(/img/antenna1.png);
+    background-image: url(../img/antenna1.png);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
@@ -144,15 +144,15 @@ body{
 }
 
 .about-list:nth-child(2)::before{
-    background-image: url(/img/clock1.png);
+    background-image: url(../img/clock1.png);
 }
 
 .about-list:nth-child(3)::before{
-    background-image: url(/img/diagram1.png);
+    background-image: url(../img/diagram1.png);
 }
 
 .about-list:nth-child(4)::before{
-    background-image: url(/img/astronaut1.png);
+    background-image: url(../img/astronaut1.png);
 }
 .about-list{
     width: 270px;
