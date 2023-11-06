@@ -1,17 +1,17 @@
 .navigation{
     list-style: none;
-    color: 212121;
+    color: #212121;
     font-size: 14px;
     font-weight: 500;
 }
-a:hover{
+.site-nav-link:hover{
+    color: #2196F3;
+}
+.contanct-link:hover{
     color: #2196F3;
 }
 h3{
     color: #212121;
-}
-.foto{
-    list-style: none;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -21,11 +21,6 @@ body{
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-}
-ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
 }
 .logo{
     font-family: 'Raleway', sans-serif;
