@@ -119,14 +119,14 @@ body{
     height: 120px;
     background-color:white;
     border-radius: 4px;
-    background-image: url();
+    background-image: url(img/antenna1.png);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 30px;
 }
 .item:nth-child(2)::before{
-    background-image: url();
+    background-image: url(/img/img.png);
 }
 .item:nth-child(3)::before{
     background-image: url();
