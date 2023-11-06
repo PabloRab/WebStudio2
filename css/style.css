@@ -208,9 +208,6 @@ body{
     font-weight: 400;
     text-align: center;
 }
-.footer-list{
-    margin-top: 20px;
-}
 .footer{
     padding-top: 60px;
     padding-bottom: 60px;
@@ -222,6 +219,7 @@ body{
 }
 .footer-list{
     line-height: 181.429%;
+    margin-top: 20px;
 }
 .footer-address{
     font-size: 14px;
