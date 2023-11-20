@@ -211,7 +211,6 @@ body{
 
 .team-list{
     width: 270px;
-    border-color: 1px red;
     padding-bottom: 30px;
     display: flex;
     flex-direction: column;
@@ -257,6 +256,7 @@ body{
 .footer-list{
     line-height: 181.429%;
     margin-top: 20px;
+    color: rgba(255, 255, 255, 0.60);
 }
 
 .footer-address{
@@ -271,7 +271,6 @@ body{
 .footer-navigation{
     color: rgba(255, 255, 255, 0.60);
 }
-
 .footer-logo{
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
