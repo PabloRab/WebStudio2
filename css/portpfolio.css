@@ -58,6 +58,25 @@ body{
     justify-content: space-between;
 }
 
+.contact-icon{
+    margin-right: 10px;
+}
+
+.contacts{
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+}
+
+.contacts .contanct-link:hover{
+    color: #2196F3;
+}
+
+.contanct-link:hover .contact-icon{
+    fill: #2196F3;
+}
+
 .site-nav-link:hover{
     color: #2196F3;
 }
