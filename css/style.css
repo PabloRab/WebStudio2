@@ -64,6 +64,12 @@ body{
 
 .contanct-link{
     color: #757575;
+    display: flex;
+    align-items: center;
+}
+
+.contact-icon{
+    margin-right: 10px;
 }
 
 .contacts{
@@ -71,6 +77,14 @@ body{
     font-size: 14px;
     font-weight: 500;
     display: flex;
+}
+
+.contacts .contanct-link:hover{
+    color: #2196F3;
+}
+
+.contanct-link:hover .contact-icon{
+    fill: #2196F3;
 }
 
 .mail{
@@ -246,6 +260,17 @@ body{
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+}
+
+.social-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.social-icon{
+    width: 20px;
+    height: 20px;
 }
 
 .footer{
