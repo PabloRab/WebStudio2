@@ -204,7 +204,7 @@ body{
 
 .work-site{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;;
 }
 
 .work-list{
@@ -215,6 +215,7 @@ body{
 .team-section{
     padding-top: 94px;
     padding-bottom: 94px;
+    background-color: #F5F4FA;;
 }
 
 .team-main-title{
@@ -246,6 +247,7 @@ body{
 .team-site{
     display: flex;
     justify-content: space-between;
+    background-color: #FFF;
 }
 
 .team-title{
@@ -253,6 +255,9 @@ body{
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .team-text{
@@ -266,11 +271,71 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 16px;
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+.social-link{
+    fill: #AFB1B8;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link:hover,
+.social-link:focus{
+    fill: white;
+    background-color: #2196F3;
+    ;
 }
 
 .social-icon{
     width: 20px;
     height: 20px;
+}
+
+.clients-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.clients-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px 94px 30px;
+}
+
+.clients-item{
+
+}
+
+.clients-link{
+    display: flex;
+    border: solid 1px #AFB1B8;
+    fill: #AFB1B8;
+    margin: 0px 30px;
+    
+}
+
+.clients-link:hover,
+.clients-link:focus{
+    fill: #2196F3;
+    border-color: #2196F3;
+    color: white;
+}
+
+.clients-icon{
+    width: 106px;
+    height: 60px;
+    padding: 16px 32px;
 }
 
 .footer{
@@ -309,3 +374,4 @@ body{
     color: #2196F3;
     margin-right: 93px;
 }
+
