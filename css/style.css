@@ -194,6 +194,23 @@ body{
     height: 294px;
 }
 
+.work-subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    background: rgba(47, 48, 58, 0.80);
+    height: 70px;
+    width: 100%;
+}
+
 .work-title{
     color: #212121;
     font-size: 36px;
@@ -210,6 +227,7 @@ body{
 .work-list{
     width: 370px;
     height: 294px;
+    position: relative;
 }
 
 .team-section{
