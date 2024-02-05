@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 .navigation{
@@ -30,10 +31,9 @@ body{
 
 .mail{
     margin-right: 50px;
-    font-weight: 500;
     color: #757575;
+    
 }
-
 .logo-wrap{
     display: flex;
     align-items: center;
@@ -49,6 +49,9 @@ body{
 .black{
     color: #000000;
 }
+
+
+
 .work-block{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -67,6 +70,7 @@ body{
     font-size: 14px;
     font-weight: 500;
     display: flex;
+    transition-property: color;
 }
 
 .contacts .contanct-link:hover{
@@ -75,9 +79,11 @@ body{
 
 .contanct-link:hover .contact-icon{
     fill: #2196F3;
+    transition-duration: 250ms;
 }
 
 .site-nav-link:hover{
+    transition-duration: 250ms;
     color: #2196F3;
 }
 
@@ -93,6 +99,7 @@ body{
     display: flex;
     margin-right: 93px;
     position: relative;
+    transition-property: color;
 }
 .site-nav-link.current::after{
     content: '';
@@ -105,8 +112,9 @@ body{
     left: 0;
     box-sizing: border-box;
     bottom: -32px;
-
 }
+
+
 
 .site-nav{
     width: 281px;
@@ -197,6 +205,7 @@ margin-bottom: 4px;
     letter-spacing: 0.42px;
     text-transform: uppercase;
     margin-bottom: 20px;
+    transition-property: fill background-color;
 }
 
 
@@ -204,6 +213,7 @@ margin-bottom: 4px;
 .footer-link:focus{
     fill: white;
     background-color: #2196F3;
+    transition-duration: 250ms;
 }
 
 .footer-wrap{
@@ -214,17 +224,6 @@ margin-bottom: 4px;
 .footer-icon{
     width: 20px;
     height: 20px;
-}
-
-button:hover{
-    border-radius: 4px;
-    background: #2196F3;
-    color: #FFF;
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-}
-
-button:hover{
-    background: #2196F3;;
 }
 
 .site-widget{
@@ -280,6 +279,15 @@ button:hover{
     background: #F5F4FA;    
     border: none;
     padding: 6px 22px;
+    transition-property: background-color color box-shadow; 
+}
+
+.button-widget:hover,
+.button-widget:focus {
+    transition-duration: 500ms;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .list-widget{
