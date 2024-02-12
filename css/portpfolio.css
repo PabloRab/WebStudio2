@@ -240,10 +240,12 @@ margin-bottom: 4px;
     flex-wrap: wrap;
     gap: 30px;
     flex-basis:calc((100% - 20%) / 3);
+    transition-property: background-color color box-shadow; 
 }
 
 .portfolio-item:hover{
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+    transition-duration: 1000ms;
 }
 
 .product-trumb{
@@ -267,9 +269,14 @@ margin-bottom: 4px;
     color: white;
     width: 100%;
     padding: 63px 24px;
+    transform: translate(-50%, -50%);
     opacity: 0;
+    transform: translateY(100%);
+    transition: 1000ms cubic-bezier(0.8, -0.08, 0.3, 1);
 }
 .portfolio-item:hover .product-action{
+    transform: translateY(0);
+    transition-duration: 1000ms cubic-bezier(0.8, -0.08, 0.3, 1);
     opacity: 1;
 }
 
