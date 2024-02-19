@@ -6,13 +6,19 @@
 }
 
 .site-nav-link:hover{
-    transition-duration: 250ms;
-    color: #2196F3;
+    animation-name: changeColor;
+    animation-duration: 250ms;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @keyframes changeColor{
+        0%{
+            color: #757575;
+        }
+        100%{
+            color: #2196F3;
+        }
+    }
 }
 
-.contanct-link:hover{
-    color: #2196F3;
-}
 
 body{
     font-family: 'Roboto', sans-serif;
